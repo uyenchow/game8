@@ -1,1 +1,1 @@
-// https://i.imgur.com/YsbKHg1.gif
+// No JS
