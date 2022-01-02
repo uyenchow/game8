@@ -188,8 +188,8 @@ input:checked ~ #message {
   flex: 1;
   align-items: center;
   justify-content: center;
-  width: 60px;
-  height: 60px;
+  width: 120px;
+  height: 120px;
   overflow: hidden;
   position: relative;
 }
@@ -197,7 +197,7 @@ input:checked ~ #message {
 
 label:active {
   position:static; 
-  margin-left: 60px;
+  margin-left: 120px;
 }
 
 label:active::before {
@@ -205,9 +205,9 @@ label:active::before {
   position: absolute;
   top: 0;
   left: 0;
-  width: 60px;
+  width: 120px;
   z-index: 10;
-  height: 60px;
+  height: 120px;
 }
 
 
@@ -218,9 +218,9 @@ label {
   box-sizing: border-box;
   cursor: pointer;
   display: block;
-  height: 60px;
-  width: 60px;
-  line-height: 60px;
+  height: 120px;
+  width: 120px;
+  line-height: 120px;
   font-size: 2rem;
   position: absolute;
   top: 0;
